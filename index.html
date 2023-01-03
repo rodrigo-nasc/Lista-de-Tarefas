@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css" />
+  </head>
+  <body>
+    <main class="lista__tarefas" data-theme="dark">
+      <h1 class="titulo">Lista de Tarefas</h1>
+      <button class="theme" onclick="themes()">Light/Dark</button>
+      <div class="campo__tarefa">
+        <input type="text" name="input" class="input" id="input" placeholder="Digite a sua tarefa" />
+        <button onclick="adicionar()" id="adicionar" class="botao__adiciona">Adicionar Tarefa</button>
+      </div>
+
+      <section id="tarefas"></section>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
