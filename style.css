@@ -146,4 +146,8 @@ body {
     .lista__tarefas {
         text-align: center;
     }
+
+    .texto__deletar {
+        display: none;
+    }
 }
